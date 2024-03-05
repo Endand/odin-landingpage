@@ -15,3 +15,10 @@ body{
 button, .cta{
    background-color:#3882F6 ;
 }
+
+.footer{
+   color: white;
+   text-align: center;
+   padding:25px;
+   font-size: 12px;
+}
