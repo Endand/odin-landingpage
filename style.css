@@ -1,0 +1,17 @@
+body{
+   display: flex;
+   flex-direction: column;
+   flex:1
+}
+
+.top, .footer{
+   background-color: #1F2937;
+}
+
+.quote{
+   background-color: #E5E7EB;
+}
+
+button, .cta{
+   background-color:#3882F6 ;
+}
