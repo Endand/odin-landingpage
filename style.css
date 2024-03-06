@@ -11,6 +11,62 @@ body{
    background-color: #1F2937;
 }
 
+.top{
+   padding: 0 150px;
+   color: white;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.logo{
+font-size: 24px;
+color: #F9FAF8;
+}
+
+.header-list{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   gap:12px;
+   list-style-type: none;
+}
+
+.hero{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 100px;
+}
+
+.hero-text{
+   width: 500px;
+   margin-right: 200px;
+}
+
+.hero-main{
+   font-size: 48px;
+   font-weight: 1000;
+   color: #F9FAF8;
+}
+
+.hero-sub{
+   font-size: 18px;
+   color: #E5E7EB;
+   
+}
+
+.sign-up{
+   font-weight: 900;
+   font-size: 20px;
+   padding: 5px 23px;
+   border: none;
+   border-radius: 8px;
+}
 
 .inspire{
    background-color: #E5E7EB;
@@ -22,8 +78,7 @@ body{
    
 }
 .quote-container{
-   font-size: 36px;
-   
+   font-size: 36px; 
    font-weight: 200;
    color: #1F2937;
    padding:100px;
@@ -77,13 +132,7 @@ button, .cta{
    color: lightgray;
    font-size: 18px;
 }
-.sign-up{
-   font-weight: 900;
-   font-size: 20px;
-   padding: 5px 23px;
-   border: none;
-   border-radius: 8px;
-}
+
 
 .cta .sign-up{
    border: 1.8px solid;
