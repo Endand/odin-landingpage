@@ -11,25 +11,37 @@ body{
    background-color: #1F2937;
 }
 
-.quote{
-   background-color: #E5E7EB;
-}
 
 button, .cta{
    background-color:#3882F6 ;
    color: white;
 }
 
-.footer{
-   color: white;
-   text-align: center;
-   padding:25px;
-   font-size: 12px;
+.inspire{
+   background-color: #E5E7EB;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.quote{
+   font-size: 36px;
+   font-style: italic;
+   color: #1F2937;
+   padding:100px;
+   width:800px;
+   margin:0;
+}
+.author{
+   padding:0;
+   margin:0;
+   font-size: 26px;
+   font-weight: 800;
+   
 }
 
 .cta{
    display: flex;
-   justify-content: center;
    align-items: center;
    padding:40px;
    justify-content: space-around;
@@ -51,11 +63,16 @@ button, .cta{
 }
 
 .sign-up{
-   font-weight: 700;
+   font-weight: 900;
    border-color: white;
    border-radius: 6px;
    padding: 5px 23px;
-   border: 1.5px solid
-   
-   
+   border: 1.8px solid
+}
+
+.footer{
+   color: white;
+   text-align: center;
+   padding:25px;
+   font-size: 12px;
 }
