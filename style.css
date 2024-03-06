@@ -20,7 +20,7 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 50px;
+   margin-bottom: 80px;
 }
 
 .logo{
@@ -40,12 +40,12 @@ color: #F9FAF8;
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin-bottom: 100px;
+   margin-bottom: 120px;
 }
 
 .hero-text{
-   width: 500px;
-   margin-right: 200px;
+   width: 900px;
+   margin-right: 100px;
 }
 
 .hero-main{
@@ -67,6 +67,16 @@ color: #F9FAF8;
    padding: 5px 23px;
    border: none;
    border-radius: 8px;
+}
+
+.hero-img{
+   text-align: center;
+   background-color: rgb(118, 118, 118);
+   padding:100px 200px;
+   margin:0;
+   font-size: 19px;
+   height: auto;
+   width: 600px;
 }
 
 .inspire{
