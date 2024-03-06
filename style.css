@@ -20,7 +20,7 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   
+   margin-bottom: 50px;
 }
 
 .logo{
@@ -52,12 +52,13 @@ color: #F9FAF8;
    font-size: 48px;
    font-weight: 1000;
    color: #F9FAF8;
+   margin:0;
 }
 
 .hero-sub{
    font-size: 18px;
    color: #E5E7EB;
-   
+   margin:10px 0;
 }
 
 .sign-up{
