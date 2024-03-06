@@ -12,17 +12,13 @@ body{
 }
 
 
-button, .cta{
-   background-color:#3882F6 ;
-   color: white;
-}
-
 .inspire{
    background-color: #E5E7EB;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
+   
    
 }
 .quote-container{
@@ -49,12 +45,23 @@ button, .cta{
    text-align: end;
 }
 
+button, .cta{
+   background-color:#3882F6 ;
+   color: white;
+}
+
 .cta{
    display: flex;
    align-items: center;
-   padding:40px;
-   justify-content: space-around;
-   
+   padding:40px 100px;
+   justify-content: space-between;
+   width:70%;
+   margin: 100px auto;
+   border-radius: 10px;
+}
+
+.text{
+   margin-right: 80px;
 }
 
 .cta-main, .cta-sub{
@@ -63,16 +70,17 @@ button, .cta{
 }
 
 .cta-main{
-   font-size: large;
+   font-size: 25px;
 }
 
 .cta-sub{
    color: lightgray;
-   font-size: small;
+   font-size: 18px;
 }
 
 .sign-up{
    font-weight: 900;
+   font-size: 20px;
    border-color: white;
    border-radius: 6px;
    padding: 5px 23px;
@@ -83,5 +91,5 @@ button, .cta{
    color: white;
    text-align: center;
    padding:25px;
-   font-size: 12px;
+   font-size: 18px;
 }
