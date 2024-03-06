@@ -77,14 +77,19 @@ button, .cta{
    color: lightgray;
    font-size: 18px;
 }
-
 .sign-up{
    font-weight: 900;
    font-size: 20px;
+   padding: 5px 23px;
+   border: none;
+   border-radius: 8px;
+}
+
+.cta .sign-up{
+   border: 1.8px solid;
    border-color: white;
    border-radius: 6px;
-   padding: 5px 23px;
-   border: 1.8px solid
+   
 }
 
 .footer{
